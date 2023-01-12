@@ -7,9 +7,9 @@ name: Mark stale issues and pull requests 2
 run-name: ${{ github.actor }} is learning GitHub Actions
 
 on:
-#    workflow_dispatch
-  schedule:
-  - cron: '*/1  * * * *'
+   workflow_dispatch
+#   schedule:
+#   - cron: '*/1  * * * *'
   
 
 jobs:
